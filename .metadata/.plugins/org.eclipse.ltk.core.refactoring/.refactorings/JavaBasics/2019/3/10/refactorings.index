@@ -1,0 +1,6 @@
+1551580935914	Rename type 'ConditionsAll'
+1551637045376	Rename local variable 'act'
+1551637256700	Extract local variable 'scanner'
+1551642772815	Rename type 'TaskNew'
+1551722644741	Convert local variable 'scan1' to field
+1552144407340	Delete element

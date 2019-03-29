@@ -1,0 +1,43 @@
+package com.class11;
+
+import java.util.Scanner;
+
+public class Main {
+	/* For you to do:
+If browser is ChRoME
+It should print the 
+Proceed with chrome Browser
+If browser is FireFOX
+It should print the 
+Proceed with firefox Browser
+If browser is Ie
+It should print the 
+Proceed with ie Browser
+If any other browser 
+It should print the  
+Invalid Browser
+	 */
+	
+
+	public static void main(String[] args) {
+		if (true) {
+		int[] str = {5};
+		String i = "" + str[0];
+		System.out.print(i);
+		}
+		System.out.print("-");
+		{
+		int[] str = {1, 2};
+		System.out.print(str[1]);
+		}
+		System.out.print("-");
+		{
+		String str = "I like Java Programming Language";
+		System.out.print(str);
+		}
+		System.out.print("-");
+		{
+		int str = 124;
+		System.out.print(str);
+		}
+		}}

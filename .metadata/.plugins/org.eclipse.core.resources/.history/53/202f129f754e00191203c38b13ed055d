@@ -1,0 +1,25 @@
+package com.class11;
+
+import java.util.Scanner;
+
+public class Main {
+	/* Write a program that  takes a 2-D array and prints the sums of the rows as an integer array.
+	 */
+	public static void main(String[] args){
+		int[][] a = {
+			{1,1,1},
+			{1,1,1},
+			{1,1,1}
+		};
+		boolean square=true;
+ for (int i=0; i<a.length;i++) {
+	 for (int j=0;j<a[j].length-1;j++) {
+		 if (a.length==a[j].length) {
+			 continue;
+	 }else {
+		 square=false; }
+ }
+	 System.out.println(square); 
+ }
+}
+}

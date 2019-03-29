@@ -1,0 +1,20 @@
+package com.class9;
+import java.util.Scanner;
+public class Task1 {
+
+	public static void main(String[] args) {
+		// 1. Write a program that reads a set of integers, provided by a user and then prints the sum of the even and odd integers.
+		Scanner scan = new Scanner(System.in);
+		int sum1=0,sum2=0;
+		for (int a=1;a<=4;a++) {
+		System.out.println("Please enter integer number");
+		int num =scan.nextInt();
+		if (num%2==0) {
+			sum1=sum1+num;
+		}else {
+			sum2=sum2+num;
+		}
+		}
+	System.out.println("The sum of even numbers is "+sum1+". And the sum of odd numbers is "+sum2 );
+	}
+}

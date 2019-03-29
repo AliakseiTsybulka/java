@@ -1,0 +1,11 @@
+package com.class5;
+
+public class ConditionsAll {
+
+	public static void main(String[] args) {
+		// Write a program to find largest of three double values using if-else..if
+		//provided by a user (numbers must bedistinct)
+		double a,b,c;
+	}
+
+}

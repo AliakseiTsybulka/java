@@ -1,0 +1,21 @@
+package com.class4;
+
+public class Task {
+	public static void main(String[] args) {
+		double rate,expectedRate = 4.5;
+		int price, maxPrice = 200000;
+		System.out.println("Enter the rate (from 1 to 5) of a house");
+		if (rate<expectedRate) {
+			System.out.println("You can consider this purchase");
+			System.out.println("Enter the price of the house");
+			if (price>maxPrice) {
+				System.out.println("You need to take a loan");
+			}else {
+				System.out.println("Please prepare your cash money");
+			}
+		}else {
+			System.out.println("You are not going to buy this house");
+		}
+	}
+
+}

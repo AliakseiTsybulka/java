@@ -1,0 +1,36 @@
+package com.class11;
+
+import java.util.Scanner;
+
+public class Main {
+	/* For you to do:
+If browser is ChRoME
+It should print the 
+Proceed with chrome Browser
+If browser is FireFOX
+It should print the 
+Proceed with firefox Browser
+If browser is Ie
+It should print the 
+Proceed with ie Browser
+If any other browser 
+It should print the  
+Invalid Browser
+	 */
+	public static void main(String[] args)
+	{
+		int[][] a = {
+			{1,1,2}, //sum = 4
+			{3,1,2}, //sum = 6
+			{3,5,3}, //sum = 11
+			{0,1,2}  //sum = 3
+		};
+		int []rowSums = new int[a.length];
+		for (int[] newArray : a) { 
+			for (int i=0;i<newArray.length;i++) {
+			rowSums[i]+=newArray[i];}
+			System.out.println(rowSums);
+			
+		}
+		}
+}

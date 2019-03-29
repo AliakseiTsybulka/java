@@ -1,0 +1,19 @@
+package com.class6;
+
+import java.util.Scanner;
+
+public class Main {
+
+	public static void main(String[] args) {
+		String subject = null,day;
+		Scanner scan = new Scanner(System.in);
+		System.out.println("Is it weekend?");
+		day=scan.nextLine();
+		if (day.equals("weekday")) {
+			subject = "Java";
+		}else if (day.equals("weekend")) {
+			subject = "Manual testing";
+		}
+		System.out.println(subject);
+	}
+}

@@ -1,0 +1,28 @@
+package com.class11;
+
+import java.util.Scanner;
+
+public class Main {
+	/* For you to do:
+If browser is ChRoME
+It should print the 
+Proceed with chrome Browser
+If browser is FireFOX
+It should print the 
+Proceed with firefox Browser
+If browser is Ie
+It should print the 
+Proceed with ie Browser
+If any other browser 
+It should print the  
+Invalid Browser
+	 */
+	
+
+	public static void main(String[] args) {
+		int arr[] = new int[] {0 , 1, 2, 3, 4, 5, 6, 7, 8, 9};
+		int n = 6;
+		System.out.println(arr[n]);
+		n = arr[arr[n] / 2];
+		System.out.println(arr[n] / 2);
+		}}

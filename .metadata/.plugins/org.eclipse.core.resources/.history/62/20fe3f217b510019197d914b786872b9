@@ -1,0 +1,35 @@
+package com.class11;
+
+import java.util.Scanner;
+
+public class Main {
+	/* For you to do:
+If browser is ChRoME
+It should print the 
+Proceed with chrome Browser
+If browser is FireFOX
+It should print the 
+Proceed with firefox Browser
+If browser is Ie
+It should print the 
+Proceed with ie Browser
+If any other browser 
+It should print the  
+Invalid Browser
+	 */
+	
+
+
+	
+		public static void main(String[] args) {
+			int a[][] = {{1, 3, 4}, {2, 3}, {7, 6, 5, 4, 3, 2, 1}, {9}, {8}};
+			int sum = 0;
+			for(int i = 0; i < a.length; i++)
+			{
+			for(int j = 0; j < a[0].length; j++)
+			{
+			sum += a[i][j];
+			}
+			}
+			System.out.println("sum = " + sum);
+			}}
