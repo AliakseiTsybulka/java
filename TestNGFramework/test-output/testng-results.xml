@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="933" started-at="2019-06-15T17:14:24Z" finished-at="2019-06-15T17:14:25Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="933" started-at="2019-06-15T17:14:24Z" finished-at="2019-06-15T17:14:25Z">
+      <class name="com.syntax.practice.ExcelFunctionsTest">
+        <test-method status="PASS" signature="excelTest()[pri:0, instance:com.syntax.practice.ExcelFunctionsTest@26be92ad]" name="excelTest" duration-ms="873" started-at="2019-06-15T17:14:24Z" finished-at="2019-06-15T17:14:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- excelTest -->
+      </class> <!-- com.syntax.practice.ExcelFunctionsTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

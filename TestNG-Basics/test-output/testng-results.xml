@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="13842" started-at="2019-06-12T01:13:20Z" finished-at="2019-06-12T01:13:34Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="13842" started-at="2019-06-12T01:13:20Z" finished-at="2019-06-12T01:13:34Z">
+      <class name="com.class05.task">
+        <test-method status="PASS" signature="setUP()[pri:0, instance:com.class05.task@8bd1b6a]" name="setUP" is-config="true" duration-ms="5524" started-at="2019-06-12T01:13:20Z" finished-at="2019-06-12T01:13:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUP -->
+        <test-method status="PASS" signature="testUsers(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.class05.task@8bd1b6a]" name="testUsers" duration-ms="1565" started-at="2019-06-12T01:13:25Z" data-provider="setOfData" finished-at="2019-06-12T01:13:27Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[100]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[100]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Lara Croft]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[666 Lenin St]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[St. Petersburg]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[FL]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[12345]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[Visa]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[1234567890098765]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[02/24]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUsers -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.class05.task@8bd1b6a]" name="tearDown" is-config="true" duration-ms="171" started-at="2019-06-12T01:13:27Z" finished-at="2019-06-12T01:13:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUP()[pri:0, instance:com.class05.task@8bd1b6a]" name="setUP" is-config="true" duration-ms="4845" started-at="2019-06-12T01:13:27Z" finished-at="2019-06-12T01:13:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUP -->
+        <test-method status="PASS" signature="testUsers(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.class05.task@8bd1b6a]" name="testUsers" duration-ms="1530" started-at="2019-06-12T01:13:32Z" data-provider="setOfData" finished-at="2019-06-12T01:13:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[150]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[300]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Zlatan Ibrahimovich]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Galaxy Stadium]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Los Angeles]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[CA]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[54321]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[MasterCard]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[9900112233221144]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[09/21]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUsers -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.class05.task@8bd1b6a]" name="tearDown" is-config="true" duration-ms="170" started-at="2019-06-12T01:13:33Z" finished-at="2019-06-12T01:13:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.class05.task -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
